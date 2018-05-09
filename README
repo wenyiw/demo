@@ -1,0 +1,12 @@
+with maven environment, spring boot + mysql + mybatis
+localhost:8080
+
+https://blog.csdn.net/alantuling_jt/article/details/54893383
+
+model: User class(entity)
+mapper: UserMapper interface(Dao)
+service: UserService (process data, use UserMapper methods) (service)
+controller: UserController class (use UserService methods) (controller)
+DemoApplication: startup class
+application.properties: connect mysql
+pom.xml: config dependencies, plugins, etc.
